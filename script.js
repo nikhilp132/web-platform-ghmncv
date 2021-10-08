@@ -1,9 +1,7 @@
 console.log('hello!');
 
-$(document).ready(function () {
-  $('input').keydown(function () {
-    var string = document.getElementById('searchString').value();
+function findString() {
+  var string = document.getElementById('item').value;
 
-    console.log(string);
-  });
-});
+  console.log(string);
+}
